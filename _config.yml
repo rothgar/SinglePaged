@@ -14,13 +14,13 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Title: Edit me in _config.yml!"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+title:       "Cloud Native Infrastructure"
+keywords:    "Cloud Native Infrastructure O'Rielly Book"
+description: "A book by Justin Garrison and Kris Nova about how to run infrastructure in the cloud the cloud native way"
+source_link: "https://cnibook.info"
 favicon:     #put a path like: "img/favicon.ico"
 touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+google_analytics_key: UA-104383394-1
 
 
 ### template colors, used site-wide via css ###
@@ -36,3 +36,4 @@ colors:
 kramdown:
   auto_ids:  false
 
+gems: [jekyll-seo-tag]
