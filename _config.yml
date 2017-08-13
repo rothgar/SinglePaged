@@ -18,7 +18,7 @@ title:       "Cloud Native Infrastructure"
 keywords:    "Cloud Native Infrastructure O'Rielly Book"
 description: "A book by Justin Garrison and Kris Nova about how to run infrastructure in the cloud the cloud native way"
 source_link: "http://www.cnibook.info"
-#favicon:     "img/favicon.ico"
+favicon:     "img/favicon.ico"
 #touch_icon:  #put a path like: "img/apple-touch-icon.png"
 google_analytics_key: UA-104383394-1
 
