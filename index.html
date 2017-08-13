@@ -10,7 +10,7 @@
 	<meta name="description" content="{{ site.description }}">
   <link rel="stylesheet" href="combo.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
 </head>
@@ -37,9 +37,8 @@
         <div class="subtlecircle sectiondivider faicon">
           <span class="fa-stack">
             <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x"></i>
+            <i class="fa fa-{{ page.fa-icon }} fa-stack-1x" {%if page.fa-icon-style %}style="{{ page.fa-icon-style }}"{% endif %}></i>
           </span>
-          <h5 class="icon-title">{{ page.title }}</h5>
         </div>
         {% endif %}
         <div class="container {{ page.style }}">
